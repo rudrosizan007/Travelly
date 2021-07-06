@@ -96,7 +96,7 @@ nav ul{
 /*benefits section*/
 #locations{
     min-height: 100vh;
-    background: url(img/jessica-christian-prNTlm6Em-M-unsplash.jpg);
+    background: url('img/jessica-christian-prNTlm6Em-M-unsplash.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -114,9 +114,8 @@ nav ul{
 }
 .locations-head h3{
     padding: 1rem 0rem;
-    background: white;
+    color: white;
     background-clip: text ;
-    -webkit-text-fill-color: transparent;
 }
 /*benefits-section*/
 .benefits-head{
@@ -167,7 +166,7 @@ nav ul{
 }
 #contact {
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0.5),transparent),url(img/philipp-waldhauer-Iay5RmQZo8Q-unsplash.jpg);
+    background: linear-gradient(rgba(0,0,0.5),transparent),url('img/philipp-waldhauer-Iay5RmQZo8Q-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
